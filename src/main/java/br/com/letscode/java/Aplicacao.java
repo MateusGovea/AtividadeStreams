@@ -71,14 +71,6 @@ public class Aplicacao {
     }
 
     private List<Oscar> leituraArquivos() {
-        /*List<Oscar> stream1 = this.oscaresHomens;
-        List<Oscar> stream2 = this.oscaresMulheres;
-
-        List<Oscar> resultingStream = Stream.concat(stream1, stream2);
-
-        assertEquals(
-                Arrays.asList(1, 3, 5, 2, 4, 6),
-                resultingStream.collect(Collectors.toList()));*/
         List<Oscar> oscares = new ArrayList<>();
         oscares.addAll(this.oscaresMulheres);
         oscares.addAll(this.oscaresHomens);
